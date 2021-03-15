@@ -15,3 +15,8 @@ def is_consecutive(my_list):
     return sorted(my_list) == list(range(min(my_list), (max(my_list)+1)))
 
 print(is_consecutive([1,4,3,4,6]))
+
+def welcome(marvel_character):
+    print(f'Welcome to {marvel_character} Vision')
+
+welcome('Wanda')
